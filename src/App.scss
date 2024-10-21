@@ -1,0 +1,36 @@
+@import './styles/_variables.scss';
+
+/* Styling for the Navigation Bar and Links */
+
+.navbar {
+    background-color: #282c34;
+    padding: 15px;
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+  
+      li {
+        .nav-link {
+          text-decoration: none;
+          color: $white;
+          font-size: 1.2rem;
+          padding: 8px 16px;
+          border-radius: 4px;
+          transition: background-color 0.3s ease, color 0.3s ease;
+  
+          &:hover {
+            background-color: #007bff;
+            color: $white;
+          }
+  
+          &:active {
+            background-color: #0056b3;
+          }
+        }
+      }
+    }
+  }
+  

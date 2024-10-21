@@ -1,0 +1,30 @@
+@use '../styles/_variables.scss';
+
+/* SCSS for Schedule Page */
+.schedule-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+  
+    h1 {
+      color: #444;
+      font-size: 2rem;
+    }
+  
+    ul {
+      list-style: none;
+      padding: 0;
+  
+      li {
+        margin: 10px 0;
+        padding: 15px;
+        background-color: #dfe4ea;
+        border-radius: 8px;
+  
+        p {
+          margin: 5px 0;
+          color: #666;
+        }
+      }
+    }
+  }
+  
