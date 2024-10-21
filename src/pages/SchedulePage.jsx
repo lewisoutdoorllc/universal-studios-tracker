@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { formatDateToEST } from '../utils/dateHelper'; // Optional helper for formatting dates
-import './SchedulePage.scss';  // Import SCSS
+import './SchedulePage.scss';
 
 function SchedulePage() {
     const [parkSchedule, setParkSchedule] = useState(null);
